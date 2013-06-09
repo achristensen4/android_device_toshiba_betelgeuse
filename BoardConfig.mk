@@ -4,6 +4,9 @@ USE_CAMERA_STUB := false
 # inherit from the proprietary version
 -include vendor/toshiba/betelgeuse/BoardConfigVendor.mk
 
+TARGET_KERNEL_SOURCE := kernel/toshiba/betelgeuse
+TARGET_KERNEL_CONFIG := tegra_betelgeuse_android_defconfig
+
 TARGET_BOARD_PLATFORM := tegra
 TARGET_BOARD_INFO_FILE := device/toshiba/betelgeuse/board-info.txt
 TARGET_CPU_ABI := armeabi-v7a
