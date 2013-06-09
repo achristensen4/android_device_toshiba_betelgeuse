@@ -1,9 +1,6 @@
 # Camera Setup
 USE_CAMERA_STUB := false
 
-# inherit from the proprietary version
--include vendor/toshiba/betelgeuse/BoardConfigVendor.mk
-
 TARGET_KERNEL_SOURCE := kernel/toshiba/betelgeuse
 TARGET_KERNEL_CONFIG := tegra_betelgeuse_android_defconfig
 
